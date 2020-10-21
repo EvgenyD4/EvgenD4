@@ -1,7 +1,6 @@
 <?php
     $page_title = 'Homepage';
     include_once'includes/header.php';
-    include_once'config/Session.php';
 ?>
 
 <div class="jumbotron">

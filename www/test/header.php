@@ -13,11 +13,7 @@
       <meta name="googlebot" content="index,follow,snippet,archive">
 
       <!-- link the connector stylsheet -->
-      <link rel="stylesheet" href="assets/css/bootstrap.css">
-      <link rel="stylesheet" href="assets/css/font-awesome.css">
-      <link rel="stylesheet" href="assets/css/sweetalert.css">
       <link rel="stylesheet" href="assets/css/custom.css">
-			<link rel="stylesheet" href="assets/css/red.css">
 
       <title><?php if(isset($page_title)) echo $page_title; ?> | User authenication system</title>
 </head>
