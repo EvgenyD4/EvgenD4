@@ -1,7 +1,7 @@
    <div class="footer">
     <div class="copyright">
-    <p><strong>Учебный сайт «Как поймать льва в пустыне»</strong></p>
-    <p>&copy; Влад Мержевич</p>
+    <p><strong>Тест</strong></p>
+    <p>&copy; Вася Вася</p>
    </div>
   </div>
 </body>
