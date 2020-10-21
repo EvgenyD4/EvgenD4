@@ -5,35 +5,38 @@ html {
   -webkit-text-size-adjust:100%
 }
 body { margin: 0; }
-header {
- display: block;
- background: #00b0d8 url(images/header-gradient.png) repeat-x;
-             /* Градиент */
-}
-.header-bg {
- background: url(header-animal.png) repeat-x center bottom;
-             /* Животные */
- height: 100px; /* Высота шапки */
+
+.header img {
+ position: relative; /* Относительное позиционирование */
+ top: 10px; /* Сдвигаем картинку вниз */
+ left: 50px;
+ width: 90%; /* Ширина слоя */
+ height: 20px;
  text-align: center; /* Выравнивание по центру */
 }
-.header-bg img {
- position: relative; /* Относительное позиционирование */
- top: 40px; /* Сдвигаем картинку вниз */
-}
+
 h1 {
  font-size:2em;
  margin:.67em 0
+ text-align: center; /* Выравнивание по центру */
 }
 .content-white {
  background: #fff; /* Белый цвет фона */
- margin: 0 11px; /* Отступы по горизонтали */
- padding: 20px 40px; /* Поля */
- text-align: justify; /* Выравнивание по ширине */
+ margin: 0 1px; /* Отступы по горизонтали */
+ padding: 2px 2px; /* Поля */
+/* text-align: justify;  Выравнивание по ширине */
 }
 .text-center {
  background: #ffa; /* Белый цвет фона */
  text-align: center; /* Выравнивание по центру */
 }
+.text-center p {
+ margin: 1px 5%; /* Отступы по горизонтали */
+ text-align: justify; /* Выравнивание по ширине */
+ width: 85%; /* Ширина слоя */
+ height: 25%;
+}
+
 .footer {
   position: fixed; /* Фиксированное положение */
   left: 0; bottom: 0; /* Левый нижний угол */
@@ -43,11 +46,11 @@ h1 {
   width: 100%; /* Ширина слоя */
  }
 .copyright {
- width: 740px; /* Ширина макета без полей */
- padding: 0 10px 10px; /* Поля */
+ width: 100%; /* Ширина макета без полей */
+ padding: 0 5px 5px; /* Поля */
  margin: auto; /* Выравнивание по центру */
  color: #526118; /* Цвет текста */
 }
 .copyright p {
- margin: 0 0 5px 170px; /* Отступы текста */
+ margin: 0 0 1% 40%; /* Отступы текста */
 }

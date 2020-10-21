@@ -15,7 +15,6 @@
       <title><?php if(isset($page_title)) echo $page_title; ?> | page</title>
 </head>
 <body>
-  <div class="header-bg">
-   <img src="header-title.gif" alt="Как поймать льва в пустыне"
-  width="456" height="10">
+  <div class="header">
+   <img src="header-title.gif" alt="Как поймать льва в пустыне" title="Как поймать льва в пустыне" width="500" height="20">
   </div>
