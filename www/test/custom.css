@@ -11,9 +11,9 @@ header {
              /* Градиент */
 }
 .header-bg {
- background: url(images/header-animal.png) repeat-x center bottom;
+ background: url(header-animal.png) repeat-x center bottom;
              /* Животные */
- height: 405px; /* Высота шапки */
+ height: 100px; /* Высота шапки */
  text-align: center; /* Выравнивание по центру */
 }
 .header-bg img {
@@ -34,16 +34,14 @@ h1 {
  background: #ffa; /* Белый цвет фона */
  text-align: center; /* Выравнивание по центру */
 }
-.footer-img {
- position: absolute; /* Абсолютное позиционирование */
- left: 50%; /* По центру */
- margin-left: -310px; /* Сдвигаем влево */
- bottom: 35px; /* От верхнего края */
-}
-.footer-bg {
-  background: #e2ed9c; /* Цвет фона подвала */
-  margin-top: 80px; /* Сдвигаем вниз */
-}
+.footer {
+  position: fixed; /* Фиксированное положение */
+  left: 0; bottom: 0; /* Левый нижний угол */
+  padding: 10px; /* Поля вокруг текста */
+  background: #ffa; /* Цвет фона */
+  color: #black; /* Цвет текста */
+  width: 100%; /* Ширина слоя */
+ }
 .copyright {
  width: 740px; /* Ширина макета без полей */
  padding: 0 10px 10px; /* Поля */

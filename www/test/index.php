@@ -3,7 +3,7 @@
     include_once'header.php';
 ?>
 
-<div class="content-white text-center">
+<div class="text-center">
   Тестовая страница
 </div>
 
