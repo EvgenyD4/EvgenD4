@@ -1,0 +1,26 @@
+html {
+ font-family:sans-serif;
+ line-height:1.15;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%
+}
+body {
+ margin:0
+}
+article,aside,footer,header,nav,section {
+ display:block
+}
+h1 {
+ font-size:2em;
+ margin:.67em 0
+}
+.content-white {
+ background: #fff; /* Белый цвет фона */
+ margin: 0 11px; /* Отступы по горизонтали */
+ padding: 20px 40px; /* Поля */
+ text-align: justify; /* Выравнивание по ширине */
+}
+.text-center {
+ background: #ffa; /* Белый цвет фона */
+ text-align: center; /* Выравнивание по центру */
+}

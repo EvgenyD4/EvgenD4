@@ -8,9 +8,11 @@
       <meta name="googlebot" content="index,follow,snippet,archive">
 
       <!-- link the connector stylsheet -->
-      <!--link rel="stylesheet" href="custom.css" -->
+      <link rel="stylesheet" href="custom.css">
 
-      <title><?php if(isset($page_title)) echo $page_title; ?> | User authenication system</title>
+      <title><?php if(isset($page_title)) echo $page_title; ?> | page</title>
 </head>
 <body>
-<h1>Hi</h1>
+  <center>
+   <h1>Hi</h1>
+  </center>
