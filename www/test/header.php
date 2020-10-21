@@ -10,9 +10,12 @@
       <!-- link the connector stylsheet -->
       <link rel="stylesheet" href="custom.css">
 
+      <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+
       <title><?php if(isset($page_title)) echo $page_title; ?> | page</title>
 </head>
 <body>
-  <center>
-   <h1>Hi</h1>
-  </center>
+  <div class="header-bg">
+   <img src="header-title.gif" alt="Как поймать льва в пустыне"
+  width="456" height="10">
+  </div>

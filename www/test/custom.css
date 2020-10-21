@@ -4,11 +4,21 @@ html {
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%
 }
-body {
- margin:0
+body { margin: 0; }
+header {
+ display: block;
+ background: #00b0d8 url(images/header-gradient.png) repeat-x;
+             /* Градиент */
 }
-article,aside,footer,header,nav,section {
- display:block
+.header-bg {
+ background: url(images/header-animal.png) repeat-x center bottom;
+             /* Животные */
+ height: 405px; /* Высота шапки */
+ text-align: center; /* Выравнивание по центру */
+}
+.header-bg img {
+ position: relative; /* Относительное позиционирование */
+ top: 40px; /* Сдвигаем картинку вниз */
 }
 h1 {
  font-size:2em;
@@ -27,8 +37,8 @@ h1 {
 .footer-img {
  position: absolute; /* Абсолютное позиционирование */
  left: 50%; /* По центру */
- margin-left: -347px; /* Сдвигаем влево */
- top: 3px; /* От верхнего края */
+ margin-left: -310px; /* Сдвигаем влево */
+ bottom: 35px; /* От верхнего края */
 }
 .footer-bg {
   background: #e2ed9c; /* Цвет фона подвала */

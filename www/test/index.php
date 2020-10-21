@@ -1,11 +1,10 @@
 <?php
-    $page_title = 'Homepage';
+    $page_title = 'Первая страница';
     include_once'header.php';
 ?>
 
 <div class="content-white text-center">
-  fghfghfgh
+  Тестовая страница
 </div>
-<div class="container text-center">
-</div>
+
 <?php include_once'footer.php'; ?>
